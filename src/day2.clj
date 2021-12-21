@@ -77,7 +77,7 @@
 (comment
 
 
-(filter pos-int? (map second {:x 2011, :y -738, :z 727910}))
+
 
 
 
