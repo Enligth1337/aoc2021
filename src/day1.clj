@@ -82,24 +82,10 @@
 
 
 (comment
-  (calc-task-1 day-input)
-
-  (apply + (take 3 day-input))
-  (if [] 1 0)
-
-  (->> day-input
-       (partition 3 1)
-       (map #(apply + %))
-       (calc-task-1))
 
 
-  (conj (vector (apply + (take 3 [7100
-                                  7099
-                                  7116
-                                  7123
-                                  7142
-                                  7143
-                                  7140]))) [])
+
+
 
 
   (sum-vec-v-2  day-input)

@@ -29,6 +29,19 @@
 
 
 
+;(defn da3-task [input]
+; (apply mapv vector input)
+;  (reduce
+;    (fn [res coll]
+;      (if (= coll 0)
+;        (update res :zero inc)
+;        (update res :ones inc)))
+;    {:ones 0 :zero 0} input))
+
+
+
+
+
 (defn transpose [m]
   (apply mapv vector m))
 
@@ -66,9 +79,31 @@
       (Long/parseLong (string/join y) 2)
       )))
 
+(defn day3-task2 [input]
+  (loop [coll input]
+    (if (> (count coll) 1)
+      (
+
+        ))
+
+    ))
 
 
 
+
+
+(day3-task2 day-input )
 (comment
 
+  (count [[0 1 0 0 0 1 1 1 0 0 1 1]
+          [1 0 0 0 0 1 0 0 1 1 1 1]
+          [1 1 0 1 0 1 0 1 0 0 0 0]
+          [100001100010]
+          [000011000100]])
+
+
+
+(> 1 1)
+
+(result day-input)
   )
